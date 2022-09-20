@@ -20,3 +20,7 @@ It’s a game for two or more players and you take it turns to count aloud from 
 ## Brute Force Search
 
 Many computational problems can be solved by trying all possible candidate solutions until the correct solution is found. This approach is often called exhaustive search or brute force search. Although clumsy and inefficient, a brute force version of an algorithm is often well worth trying to get a feel of the problem before attempting to implement a better solution.The reason a better solution is often needed is that for many problems, the brute force method takes an impractical amount of time.
+
+## Linear Search
+
+A classic example of a brute force algorithm is a **linear search**. This involves checking each item in the collection if it is the one we are looking for
