@@ -24,3 +24,14 @@ Many computational problems can be solved by trying all possible candidate solut
 ## Linear Search
 
 A classic example of a brute force algorithm is a **linear search**. This involves checking each item in the collection if it is the one we are looking for
+
+## Selection Sort
+
+Selection Sort is an intuitive sorting algorithm. The basic idea of selection sort is to find the smallest element in the array and exchange it with the element in the first position. Then we need to repeat this process for the <u>remaining items</u>. So we next find the second smallest element in the array and exchange it with the element in the second position. We keep continuing this until the array is sorted.
+
+## Find Minimum Value
+
+The algorithm of finding a minimum value is:
+
+- Create a variable called `min_index` and set it to the first position on the list (usually 0). Notice that we are talking about the index rather than the value
+- Once we set our `min_index`, we iterate through the list, and if a value of the given index is greater than the one at `min_index`, then we update `min_index` to the new position.
