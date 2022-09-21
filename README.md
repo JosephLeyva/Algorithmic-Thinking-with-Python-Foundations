@@ -17,6 +17,7 @@ It’s a game for two or more players and you take it turns to count aloud from 
 
 ```one, two, fizz, fout, buzz, fizz, seven, eight, fizz, ...```
 
+----
 ## Brute Force Search
 
 Many computational problems can be solved by trying all possible candidate solutions until the correct solution is found. This approach is often called exhaustive search or brute force search. Although clumsy and inefficient, a brute force version of an algorithm is often well worth trying to get a feel of the problem before attempting to implement a better solution.The reason a better solution is often needed is that for many problems, the brute force method takes an impractical amount of time.
@@ -36,6 +37,8 @@ The algorithm of finding a minimum value is:
 - Create a variable called `min_index` and set it to the first position on the list (usually 0). Notice that we are talking about the index rather than the value
 - Once we set our `min_index`, we iterate through the list, and if a value of the given index is greater than the one at `min_index`, then we update `min_index` to the new position.
 
+---
+
 ## Analysis of Algorithms
 
 The efficiency of algorithms is important. When we discuss analysis in the context of algorithms, we are generally referring to the efficiency of an algorithm or the lack of it. The opposite of efficiency is often referred to as complexity.
@@ -49,3 +52,34 @@ The efficiency of algorithms is important. When we discuss analysis in the conte
 ## Big-O Notation
 
 In terms of algorithm analysis, big-o notation is a way of expressing an upper bound on the execution time or space requirements of an algorithm.
+
+---
+
+## Greedy Algorithms
+
+A Greedy Algorithm is one which makes locally optimal choices at any given point. Once a choice is made, it does not revisit it.
+
+This can make the algorithm “short sighted”, and it may not always find the optimal solution. However there are advantages to the greedy approach.
+
+### Advantages
+
+- Often quite fast
+- Relatively easy to implement
+
+### Disadvantages
+
+- Short sighted ⇒ may not provide optimal solution.
+- May fail on some instances of the problem.
+
+### Features
+
+- Make locally optimal choices
+- Do not revisit choices once made
+
+## The Change-Making Problem
+
+The Change-Making Problem has become something of a classic due to what it can show us about different approaches to algorithmic problem solving. Here we are going to solve it using a greedy approach
+
+### *Problem Statement*
+
+Find the minimum number of coins from a set of denominations that add up to a given amount of money.
