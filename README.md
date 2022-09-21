@@ -35,3 +35,17 @@ The algorithm of finding a minimum value is:
 
 - Create a variable called `min_index` and set it to the first position on the list (usually 0). Notice that we are talking about the index rather than the value
 - Once we set our `min_index`, we iterate through the list, and if a value of the given index is greater than the one at `min_index`, then we update `min_index` to the new position.
+
+## Analysis of Algorithms
+
+The efficiency of algorithms is important. When we discuss analysis in the context of algorithms, we are generally referring to the efficiency of an algorithm or the lack of it. The opposite of efficiency is often referred to as complexity.
+
+### Algorithm Analysis
+
+- There are two types of efficiency we are interested in:
+    - Time Complexity: The time taken by an algorithm to execute
+    - Space Complexity: The amount of memory used by an algorithm while executing.
+
+## Big-O Notation
+
+In terms of algorithm analysis, big-o notation is a way of expressing an upper bound on the execution time or space requirements of an algorithm.
