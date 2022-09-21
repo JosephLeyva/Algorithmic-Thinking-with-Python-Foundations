@@ -83,3 +83,7 @@ The Change-Making Problem has become something of a classic due to what it can s
 ### *Problem Statement*
 
 Find the minimum number of coins from a set of denominations that add up to a given amount of money.
+
+## Dijkstra Shortest Path Algorithm
+
+Another classic greedy algorithm is Dijkstra Shortest Path Algorithm, which is used to find the shortest path between two vertices of a weighted graph. Dijkstra’s algorithm is optimal, meaning it will always find the shortest path, provided the weights in the graph are not negative. As a bonus, it actually gives us the shortest path to all vertices in the graph.
